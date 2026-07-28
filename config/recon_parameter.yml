@@ -1,0 +1,12 @@
+recon_params:
+  R_ring: 0.05                           # Radius of ring array [m].
+  sampling_rate: !!float 80.0e6          # Sampling period [s].
+  N_transducer: 512                      # Number of transducer.
+  dx: 1.3e-4                             # Resolution of X coordinates [m].
+  dy: 1.3e-4                             # Resolution of Y coordinates [m].
+  Nx: 512                                # Image size in X direction.
+  Ny: 512                                # Image size in Y direction.
+  t0: 0                                  # Timing alignment point[s].
+  angle_range: [0, 360]                  # Detection angle range.
+  v0: 1520.0                             # Speed of sound propagation [m/s]
+  theta_limit_deg: !!float 23.0               # Magnitude and Direction Angle.
